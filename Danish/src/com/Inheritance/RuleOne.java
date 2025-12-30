@@ -1,6 +1,6 @@
 //Inheritance Rule No. 1
 
-package Inheritance;
+package com.Inheritance;
 
 public class RuleOne {
 

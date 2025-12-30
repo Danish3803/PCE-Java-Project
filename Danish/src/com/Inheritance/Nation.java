@@ -1,4 +1,4 @@
-package Inheritance;
+package com.Inheritance;
 
 public class Nation {
 	public static void main(String[] args) {

@@ -2,13 +2,20 @@ package Polymorphism;
 
 public class Traine {
 	public static void main(String[] args) {
-		Trainer t;
+		duty(new JavaTrainer());
+		duty(new AptiTrainer());
+		duty(new TestingTrainer());
 
-		t = new JavaTrainer();
-		t.Teach();
-		t = new AptiTrainer();
-		t.Teach();
-		t = new TestingTrainer();
+//		t = new JavaTrainer();
+//		t.Teach();
+//		t = new AptiTrainer();
+//		t.Teach();
+//		t = new TestingTrainer();
+//		t.Teach()
+
+		// Code Deduction ---
+	}
+	static void duty(Trainer t) {
 		t.Teach();
 	}
 }
